@@ -1,0 +1,24 @@
+project-management-tool/
+├── client/               # React Frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/   # React components
+│   │   ├── pages/        # Main views
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── README.md
+│
+├── server/               # Node.js Backend
+│   ├── models/           # MongoDB models
+│   ├── routes/           # API routes
+│   ├── config/           # DB configuration
+│   ├── app.js
+│   ├── package.json
+│   └── .env.example
+│
+├── docs/                 # Documentation
+│   └── REPORT.md         # Project report
+│
+├── .gitignore
+└── README.md             # Main documentation
